@@ -1,0 +1,19 @@
+name: single-cell
+
+channels:
+  - conda-forge
+  - bioconda
+  - r
+
+dependencies:
+  - r-seurat
+  - r-harmony
+  - r-tidyverse # includes r-readxl, r-dplyr, r-stringr
+  - r-extrafont
+  - r-svglite
+  - r-irkernel
+  - jupyter_client
+  - bioconductor-glmgampoi # speedup for sctransform
+  - r-mclust # adjusted Rand index
+  - r-ggalluvial
+  - r-hdf5r # read h5 files
