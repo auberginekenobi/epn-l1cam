@@ -24,7 +24,7 @@ This project is written in the `R` data science language with the `seurat`, `har
 ### Installation instructions
 Download this project.
 ```
-git clone [link]
+git clone git@github.com:auberginekenobi/sc-ependymoma.git
 ```
 Navigate to the root directory for this project.
 ```
