@@ -2,3 +2,7 @@ data/
 debug.ipynb
 .DS_Store
 .ipynb_checkpoints
+
+shL1CAM-shSHTN1-rnaseq/results
+shL1CAM-shSHTN1-rnaseq/anno/*
+!shL1CAM-shSHTN1-rnaseq/anno/sample_metadata.tsv
