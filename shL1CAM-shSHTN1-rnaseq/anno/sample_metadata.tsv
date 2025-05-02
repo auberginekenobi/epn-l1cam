@@ -1,11 +1,20 @@
-sample	treatment
-shL1CAM_REP1	shL1CAM
-shL1CAM_REP2	shL1CAM
-shL1CAM_REP3	shL1CAM
-shSHTN1_REP1	shSHTN1
-shSHTN1_REP2	shSHTN1
-shSHTN1_REP3	shSHTN1
-shNC_REP1	control
-shNC_REP2	control
-shNC_REP3	control
-shNC_REP4	control
+sample	treatment   batch
+shL1CAM_REP3-1	shL1CAM	3
+shL1CAM_REP3-2	shL1CAM	3
+shL1CAM_REP3-3	shL1CAM	3
+shL1CAM_REP4-1	shL1CAM	4
+shL1CAM_REP4-2	shL1CAM	4
+shL1CAM_REP4-3	shL1CAM 4
+shSHTN1_REP3-1	shSHTN1	3
+shSHTN1_REP3-2	shSHTN1	3
+shSHTN1_REP3-3	shSHTN1	3
+shSHTN1_REP4-1	shSHTN1	4
+shSHTN1_REP4-2	shSHTN1	4
+shSHTN1_REP4-3	shSHTN1	4
+shNC_REP1-1	control	1
+shNC_REP1-2	control	1
+shNC_REP1-3	control	1
+shNC_REP2-1	control	2
+shNC_REP4-1	control	4
+shNC_REP4-2	control	4
+shNC_REP4-3	control	4

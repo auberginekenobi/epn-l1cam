@@ -6,3 +6,4 @@ debug.ipynb
 shL1CAM-shSHTN1-rnaseq/results
 shL1CAM-shSHTN1-rnaseq/anno/*
 !shL1CAM-shSHTN1-rnaseq/anno/sample_metadata.tsv
+shL1CAM-shSHTN1-rnaseq/de-from-featurecounts.ipynb
