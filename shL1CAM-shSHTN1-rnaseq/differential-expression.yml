@@ -1,4 +1,3 @@
-# Differential gene expression: DESeq2
 name: differential-expression
 
 channels:
@@ -16,19 +15,22 @@ dependencies:
   - bioconductor-deseq2
   - bioconductor-edger
   - bioconductor-apeglm
+  - bioconductor-sva # ComBat-seq
 # misc. bioinformatics
-  - bioconductor-plyranges
+  - bioconductor-plyranges # parse gtf files
 # plotting
   - bioconductor-enhancedvolcano
   - r-patchwork
   - r-extrafont
   - r-svglite
+  - r-ggvenndiagram
 
 # Install this environment from file using
-# CONDA_SUBDIR=osx-64 conda env create -f differential-expression.yml
+# CONDA_SUBDIR=osx-64 conda env create -f differential-expression.yml # Mac OS w/ apple silicon
+# conda env create -f differential-expression.yml # All other operating systems
 
 # Link this env to jupyter using
-# NAME=differential-expresion; conda activate $NAME; Rscript -e "IRkernel::installspec(name = '${NAME}', displayname = '${NAME}')"; conda deactivate
+# NAME=differential-expression; conda activate $NAME; Rscript -e "IRkernel::installspec(name = '${NAME}', displayname = '${NAME}')"; conda deactivate
 
-# Use osx-64 for all other package installations:
+# Use osx-64 for all other package installations (Mac OS only):
 # conda config --env --set subdir osx-64
