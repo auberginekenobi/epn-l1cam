@@ -1,4 +1,4 @@
-sample	treatment   batch
+sample	treatment	batch
 shL1CAM_REP3-1	shL1CAM	3
 shL1CAM_REP3-2	shL1CAM	3
 shL1CAM_REP3-3	shL1CAM	3
@@ -18,3 +18,7 @@ shNC_REP2-1	control	2
 shNC_REP4-1	control	4
 shNC_REP4-2	control	4
 shNC_REP4-3	control	4
+shYAP1_REP1-1	shYAP1	1
+shYAP1_REP1-2	shYAP1	1
+shYAP1_REP1-3	shYAP1	1
+shYAP1_REP2-1	shYAP1	2
