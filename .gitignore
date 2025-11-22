@@ -1,5 +1,6 @@
 data/
 manuscript/
+gojo-single-cell-reanalysis/
 debug.ipynb
 .DS_Store
 .ipynb_checkpoints
